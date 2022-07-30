@@ -1,0 +1,121 @@
+{
+  "name": "ThinBoard",
+
+  "events": {
+    "user_control_resize": {
+      "type": "control_resize"
+    }
+  },
+
+  "user_control": {
+    "minimum_width": 48,
+    "minimum_height": 48,
+    "width": 48,
+    "height": 48,
+    "subscribe": {
+      "user_control_resize": [["width", "height"]]
+    },
+
+    "children": {
+	  "Base": {
+		"type": "bar",
+		"style": ["attach", "not_pick"],
+        "anchors": ["Left", "Right", "Bottom", "Top"],
+        "width": 16,
+        "height": 16,
+		"x": 16,
+		"y": 16,
+        "color": [0, 0, 0, 0.51]
+	  },
+      "LeftTop": {
+          "type": "expanded_image",
+          "style": ["attach", "not_pick"],
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 0,
+          "anchors": ["Left"],
+          "image": "d:/ymir work/ui/pattern/ThinBoard_Corner_LeftTop.tga"
+       },
+      "LeftBottom": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "width": 16,
+        "height": 16,
+        "x": 0,
+        "y": 32,
+        "anchors": ["Left", "Bottom"],
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Corner_LeftBottom.tga"
+      },
+      "RightTop": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "width": 16,
+        "height": 16,
+        "x": 32,
+        "y": 0,
+        "anchors": ["Right"],
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Corner_RightTop.tga"
+      },
+      "RightBottom": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "width": 16,
+        "height": 16,
+        "x": 32,
+        "y": 32,
+        "anchors": ["Right", "Bottom"],
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Corner_RightBottom.tga"
+      },
+      "Left": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "width": 16,
+        "height": 16,
+        "x": 0,
+        "y": 16,
+        "anchors": ["Left", "Top", "Bottom"],
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Line_Left.tga"
+      },
+      "Right": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "anchors": ["Right", "Top", "Bottom"],
+        "width": 16,
+        "height": 16,
+        "x": 32,
+        "y": 16,
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Line_Right.tga"
+      },
+      "Top": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "anchors": ["Left", "Right"],
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 0,
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Line_Top.tga"
+      },
+      "Bottom": {
+        "type": "expanded_image",
+        "style": ["attach", "not_pick"],
+        "anchors": ["Left", "Right", "Bottom"],
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 32,
+        "image": "d:/ymir work/ui/pattern/ThinBoard_Line_Bottom.tga"
+      },
+      "Resizer": {
+        "type": "drag_button",
+        "events": ["user_control_resize"],
+        "directions": ["Horizontal", "Vertical"],
+        "width": 10,
+        "height": 10,
+        "x": 38,
+        "y": 38
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "LoginView",
+  "x": 0,
+  "y": 0,
+  "width": 800,
+  "height": 600,
+  "style": [
+    "movable"
+  ],
+  "children": {
+    "background": {
+      "name": "bg1",
+      "type": "expanded_image",
+      "x": 0,
+      "y": 0,
+      "width": 500,
+      "height": 599,
+      "x_scale": 1024,
+      "y_scale": 768,
+      "image": "locale/en/ui/serverlist.sub"
+    },
+    "background2": {
+      "name": "bg2",
+      "type": "expanded_image",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "x_scale": 1024,
+      "y_scale": 768,
+      "image": "locale/en/ui/login.sub"
+    },
+    "connect_board": {
+      "name": "connectboard",
+      "type": "ThinBoard",
+      "x": 297,
+      "y": 166,
+      "width": 207,
+      "height": 30,
+      "children": {
+        "connect_name": {
+          "name" : "ConnectName",
+          "type" : "text",
+
+          "x" : 15,
+          "y" : 0,
+          "vertical_align" : "center",
+          "text_vertical_align" : "center",
+
+          "text" : "Something"
+        },
+        "select_connect_button": {
+          "name" : "SelectConnectButton",
+          "type" : "button",
+
+          "x" : 150,
+          "y" : 100,
+          "vertical_align" : "center",
+
+          "default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+          "over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+          "down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+
+          "text" : "Select"
+        }
+      }
+    },
+    "login_board": {
+      "name": "LoginBoard",
+      "type": "image",
+      "x": 200,
+      "y": 200,
+      "image": "locale/en/ui/login/loginwindow.sub",
+      "children": {
+        "id_edit_line": {
+          "name": "ID_EditLine",
+          "type": "EditLine",
+          "x": 77,
+          "y": 15,
+          "width": 296,
+          "height": 18,
+          "input_limit": 16,
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0
+        },
+        "horizontal_line": {
+          "name": "HorizontalLine",
+          "type": "line",
+          "x": 10,
+          "y": 34,
+          "width": 354,
+          "height": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "GameSystemMenu",
+  "width": 800,
+  "height": 600,
+  "x": 0,
+  "y": 0,
+  "children": {
+    "background": {
+      "type": "expanded_image",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600,
+      "x_scale": 0.85,
+      "y_scale": 0.8,
+      "image": "Data/Resources/Graphics/2D/Backgrounds/stripes.jpg"
+    },
+    "title": {
+      "type": "Text",
+      "width": 20,
+      "height": 15,
+      "x": 300,
+      "y": 50,
+      "text": "self.Title"
+    },
+    "game_system_logo": {
+      "type": "expanded_image",
+      "width": 50,
+      "height": 50,
+      "x": 15,
+      "y": 15,
+      "image": "Data/Resources/Graphics/2D/Logos/pxf-logo.tga",
+      "x_scale": 0.75,
+      "y_scale": 0.70
+    },
+    "test_button": {
+      "type": "button",
+      "x": 200,
+      "y": 10,
+      "width": 40,
+      "height": 15,
+      "default_image": "d:/ymir work/ui/public/middle_button_01.sub",
+  	  "over_image": "d:/ymir work/ui/public/middle_button_02.sub",
+  	  "down_image": "d:/ymir work/ui/public/middle_button_03.sub",
+      "children": {
+        "test_button_text": {
+          "type": "text",
+          "width": 20,
+          "height": 20,
+          "x": 10,
+          "y": 10,
+          "text": "btn"
+        }
+      }
+    }
+  }
+}

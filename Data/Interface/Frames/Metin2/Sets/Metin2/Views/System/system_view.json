@@ -1,0 +1,36 @@
+{
+  "name": "SystemView",
+  "width": 800,
+  "height": 600,
+  "x": 0,
+  "y": 0,
+  "children": {
+    "background": {
+      "type": "expanded_image",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600,
+      "x_scale": 1,
+      "y_scale": 1,
+      "image": "Data/Resources/Graphics/2D/Backgrounds/stripes.jpg"
+    },
+    "game_system_logo": {
+      "type": "expanded_image",
+      "width": 50,
+      "height": 50,
+      "x": 15,
+      "y": 15,
+      "image": "Data/Resources/Graphics/2D/Logos/pxf-logo.tga",
+      "x_scale": 0.3,
+      "y_scale": 0.3
+    },
+    "title": {
+      "type": "Text",
+      "x": 130,
+      "y": 40,
+      "fontname": "Tahoma:28",
+      "text": "System Menu"
+    }
+  }
+}

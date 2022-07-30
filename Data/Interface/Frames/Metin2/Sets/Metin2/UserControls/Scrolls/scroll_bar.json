@@ -1,0 +1,74 @@
+{
+  "name": "ScrollBar",
+
+  "events": {},
+
+  "user_control": {
+    "type": "scroll_bar",
+    "width": 18,
+    "height": 48,
+    "scroll": "scroll_button",
+    "restrict_vertical": [18, 18],
+    "children": {
+      "UpButton": {
+        "type": "button",
+        "anchors": ["Top"],
+        "x": 0,
+        "y": 0,
+        "default_image": "d:/ymir work/ui/public/scrollbar_up_button_01.sub",
+        "over_image": "d:/ymir work/ui/public/scrollbar_up_button_02.sub",
+        "down_image": "d:/ymir work/ui/public/scrollbar_up_button_03.sub"
+      },
+      "scroll_button": {
+        "type": "drag_button",
+        "width": 18,
+        "height": 12,
+        "x": 0,
+        "y": 15,
+        "directions": ["Vertical"],
+        "children": {
+          "Top": {
+            "type": "expanded_image",
+            "anchors": ["Top"],
+            "style": ["attach", "not_pick"],
+            "width": 16,
+            "height": 4,
+            "x": 2,
+            "y": 0,
+            "image": "d:/ymir work/ui/pattern/scrollbar_top.tga"
+          },
+          "Middle": {
+            "type": "expanded_image",
+            "anchors": ["Top", "Bottom"],
+            "style": ["attach", "not_pick"],
+            "width": 16,
+            "height": 16,
+            "x": 2,
+            "y": 4,
+            "image": "d:/ymir work/ui/pattern/scrollbar_middle.tga"
+          },
+          "Bottom": {
+            "type": "expanded_image",
+            "anchors": ["Bottom"],
+            "style": ["attach", "not_pick"],
+            "width": 16,
+            "height": 4,
+            "x": 2,
+            "y": 8,
+            "image": "d:/ymir work/ui/pattern/scrollbar_bottom.tga"
+          }
+        }
+      },
+      "DownButton": {
+        "type": "button",
+        "force_initial_validation": true,
+        "anchors": ["Bottom"],
+        "x": 0,
+        "y": 0,
+        "default_image": "d:/ymir work/ui/public/scrollbar_down_button_01.sub",
+        "over_image": "d:/ymir work/ui/public/scrollbar_down_button_02.sub",
+        "down_image": "d:/ymir work/ui/public/scrollbar_down_button_03.sub"
+      }
+    }
+  }
+}
