@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import application
 from junctions import network
 
 
-## Application imports
+# Library Imports
 from FSM import model
 from FSM.enums import PhaseState
 from game_system import Metin2GameSystem
@@ -14,7 +14,7 @@ from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 
 
-## Library Imports
+# External Imports
 from Core.Manager.decorators import register_manager
 from Core.Interface.Presenter.interfaces import PresenterInterface
 

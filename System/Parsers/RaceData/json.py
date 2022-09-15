@@ -1,9 +1,9 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from System.Parsers.RaceData import RaceData
 
-## Library Imports
+# External Imports
 
 
 class RaceDataJSON(RaceData):

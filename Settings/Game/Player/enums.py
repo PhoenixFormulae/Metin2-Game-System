@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 from enum import unique, IntEnum
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import character
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 
 @unique

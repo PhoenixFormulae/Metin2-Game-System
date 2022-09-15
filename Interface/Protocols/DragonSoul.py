@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 from typing import Protocol
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 
 class DragonSoulModelProtocol(Protocol):

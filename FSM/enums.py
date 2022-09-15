@@ -1,9 +1,9 @@
-## System Imports
+# Standard Imports
 from enum import unique, IntEnum
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 
 @unique

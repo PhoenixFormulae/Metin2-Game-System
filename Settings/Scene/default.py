@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from Settings.Scene.data import SceneSettings, CameraSettings, ActorSettings, BackgroundSettings
 from Settings.Scene.Camera.data import CameraAxisSettings, CameraViewportSettings, CameraPerspectiveSettings
 
-## Library Imports
+# External Imports
 
 
 DefaultScene: SceneSettings = SceneSettings(

@@ -1,17 +1,17 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import player
 from junctions import network
 from junctions import exchange
 from junctions import character
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from Managers.Input.Mouse.manager import MouseManager
 
-## Library Imports
+# External Imports
 from Core.Manager.interfaces import ManagerInterface
 
 

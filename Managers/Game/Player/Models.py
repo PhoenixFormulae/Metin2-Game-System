@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import character_manager
 
-## Application Imports
+# Library Imports
 from System.Manager.base import BaseManager
 from Settings.Game.Player.Motions.data import PlayerRaces
 
-## Library Imports
+# External Imports
 
 
 class PlayerModelsManager(BaseManager):

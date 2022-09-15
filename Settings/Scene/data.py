@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 from dataclasses import dataclass
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 from Settings.Scene.Camera.data import CameraSettings
 
 

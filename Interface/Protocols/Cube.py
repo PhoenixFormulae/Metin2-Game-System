@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 from typing import Protocol
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 
 
 class CubeModelProtocol(Protocol):

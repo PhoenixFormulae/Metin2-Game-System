@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 from enum import unique, Enum
 
 
-## Embedder Imports
+# Embedder Imports
 
 
-## Application Imports
+# Library Imports
 from Interface import Events
 from Interface.Frames.Metin2 import Controls
 from System.Interface.View.Control import Control
@@ -13,7 +13,7 @@ from Interface.Frames.Metin2.Sets.Metin2 import UserControls
 from Settings.Interface.data import Metin2WindowConfiguration
 
 
-## Library Imports
+# External Imports
 from Core.Interface.Frame.base import BaseFrame
 from Core.Interface.data import BaseWindowConfiguration
 from Core.Interface.View.Event.container import EventContainer

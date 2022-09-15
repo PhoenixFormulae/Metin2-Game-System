@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 from typing import NoReturn, Union, List, Optional
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import application
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 from System.Interface.View.Control import rendering
 from Interface.Frames.Metin2.Controls.types import Layer
 from Interface.Events.General.timed_delay import TimedEvent, TimedEventArguments
@@ -16,7 +16,7 @@ from System.Interface.View.Control.enums import Anchor, Flag, HorizontalAlignmen
 from Interface.Events.Mouse.mouse_click import MouseClickEvent, MouseClickEventArguments, MouseButton
 
 
-## Library Imports
+# External Imports
 from Core.Interface.View.decorators import generic_property
 from Core.Interface.View.Control.interfaces import ControlInterface
 from Core.Interface.View.UserControl.interfaces import UserControlInterface

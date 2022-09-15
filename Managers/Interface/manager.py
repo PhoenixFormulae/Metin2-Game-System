@@ -1,17 +1,17 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import group
 from junctions import application
 from junctions import input_method
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 from Settings.Input.data import IMEPasteEnabled
 
-## Library Imports
+# External Imports
 from game_system import Metin2GameSystem
 from Core.Manager.decorators import register_manager
 

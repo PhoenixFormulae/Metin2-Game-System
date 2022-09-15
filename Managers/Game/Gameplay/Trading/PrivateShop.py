@@ -1,18 +1,18 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import chat
 from junctions import shop
 
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 from Managers.Input.Mouse.manager import MouseManager
 from Managers.System.Command import ServerCommandManager
 
-## Library Imports
+# External Imports
 
 
 @register_state(PhaseState.Game)

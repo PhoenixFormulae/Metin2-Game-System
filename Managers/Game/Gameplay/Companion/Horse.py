@@ -1,17 +1,17 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import player
 from junctions import network
 from junctions import application
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from Managers.Input.Keyboard.data import KeyState
 from Managers.Input.Keyboard.decorators import Key
 
-## Library Imports
+# External Imports
 from System.Manager.base import BaseManager
 
 

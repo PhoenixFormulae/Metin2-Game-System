@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 import logging
 from typing import Type
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
-from Core.System import decorators
+# External Imports
+from Core.System.decorators import register_game_system
 from Core.System.base import BaseGameSystem
 from Core.System.data import GameSystemConfiguration
 from Core.Manager.interfaces import ManagerInterface
@@ -15,7 +15,7 @@ from Core.Interface.Frame.interfaces import FrameInterface
 from Core.Interface.Presenter.interfaces import PresenterInterface
 
 
-@decorators.register_game_system()
+@register_game_system()
 class Metin2GameSystem(BaseGameSystem):
 	
 	ManagerTypes: list[Type[ManagerInterface]] = []

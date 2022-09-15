@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 from dataclasses import dataclass
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 
 
 GameCameraDistanceLimits: list[float] = [

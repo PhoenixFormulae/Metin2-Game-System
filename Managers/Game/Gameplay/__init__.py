@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import character
 
 
-## Application Imports
+# Library Imports
 from System.Manager.base import BaseManager
 
 
-## Library Imports
+# External Imports
 
 
 class GameplayManager(BaseManager):

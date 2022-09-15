@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 from enum import Enum, unique, IntFlag
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 
 
 @unique

@@ -1,7 +1,7 @@
 ## System Imports
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import window_manager
 
 

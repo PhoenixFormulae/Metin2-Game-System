@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 from typing import Union, List
 
-## Embedder Imports
+# Embedder Imports
 from junctions import group
 from junctions import window_manager
 
-## Application Imports
+# Library Imports
 from System.Interface.View.Control import Control
 from Interface.Frames.Metin2.Controls.types import Layer
 
-## Library Imports
+# External Imports
 from Core.Plugins import factory
 from Core.Interface.View.decorators import generic_property
 

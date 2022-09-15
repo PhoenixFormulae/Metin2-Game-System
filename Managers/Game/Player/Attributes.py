@@ -1,17 +1,17 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import player
 from junctions import network
 from junctions import character
 
-## Application Imports
+# Library Imports
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 from Settings.Game.Player.Attributes.data import JobsSkills, JobsPassiveSkills,\
 	GuildActiveSkills, GuildPassiveSkills
 
-## Library Imports
+# External Imports
 from game_system import Metin2GameSystem
 from Core.Manager.decorators import register_manager
 

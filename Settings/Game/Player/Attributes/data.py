@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 from Settings.Game.Player.enums import WarriorSkillGroup, Job, ShamanSkillGroup, SuraSkillGroup, \
 	AssassinSkillGroup
 
-## Library Imports
+# External Imports
 
 
 JobsPassiveSkills: tuple = (122, 123, 121, 124, 125, 129, 0, 0, 130, 131, 141, 142,)

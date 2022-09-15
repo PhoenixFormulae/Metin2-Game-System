@@ -1,9 +1,9 @@
-## System Imports
+# Standard Imports
 from dataclasses import dataclass
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 
 @dataclass(frozen=True, slots=True, order=True)

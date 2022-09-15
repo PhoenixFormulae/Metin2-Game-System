@@ -1,6 +1,6 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 from Managers.Network.Connection import ServerConnection

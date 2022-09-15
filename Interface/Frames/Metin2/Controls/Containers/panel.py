@@ -1,17 +1,17 @@
-## System Imports
+# Standard Imports
 from typing import Optional
 
 
-## Embedder Imports
+# Embedder Imports
 
 
-## Application Imports
+# Library Imports
 from System.Interface.View.Control import Control
 from System.Interface.View.Control import rendering
 from Interface.Frames.Metin2.Controls.Scrolls.scroll_bar import ScrollBar
 
 
-## Library Imports
+# External Imports
 from Core.Plugins import factory
 from Core.Interface.View.decorators import generic_property
 from Core.Interface.View.Control.interfaces import ControlInterface

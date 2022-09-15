@@ -1,11 +1,11 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 
 ## Application Imports
 from Managers.Network.Connection import ConnectionSettings, ServerConnection
 
-## Library Imports
+# External Imports
 
 
 def Initialize():

@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 from enum import IntEnum
 
-## Embedder Imports
+# Embedder Imports
 from junctions import application
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 from Core import Locale
 
 

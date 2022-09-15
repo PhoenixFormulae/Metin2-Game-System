@@ -3,7 +3,7 @@ from enum import Enum
 from typing import NoReturn, Union
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import window_manager
 
 

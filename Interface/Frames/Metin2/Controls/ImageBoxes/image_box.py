@@ -1,7 +1,7 @@
 ## System Imports
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import group_image
 from junctions import window_manager
 

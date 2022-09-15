@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 from abc import ABC
 
-## Embedder Imports
+# Embedder Imports
 
-## Application imports
+# Library Imports
 from FSM.enums import PhaseState
 
-## Library Imports
+# External Imports
 from Core.Manager.interfaces import ManagerInterface
 
 

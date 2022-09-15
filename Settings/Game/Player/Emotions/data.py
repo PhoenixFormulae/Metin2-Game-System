@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import character
 from junctions import character_manager
 
-## Application Imports
+# Library Imports
 from Settings.Game.Player.Emotions.enums import Emotion
 
-## Library Imports
+# External Imports
 
 
 PlayerEmotions = {

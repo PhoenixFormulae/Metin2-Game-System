@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 from importlib.abc import Loader
 from importlib.machinery import ModuleSpec
 
-## Embedder Imports
+# Embedder Imports
 from junctions import root_lib
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 
 class PackCythonLoader(Loader):

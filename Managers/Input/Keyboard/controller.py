@@ -1,14 +1,14 @@
-## System Imports
+# Standard Imports
 from typing import Callable
 from inspect import signature
 
 
-## Application Imports
+# Library Imports
 from Managers.Input.Keyboard.data import KeyState
 from Managers.Input.Keyboard.metaclasses import KeyboardControllerMixin, KEY_ATTRIBUTE_LIST_NAME
 
 
-## Library Imports
+# External Imports
 from Core.Utils.zip import unpack_tuples_int
 
 

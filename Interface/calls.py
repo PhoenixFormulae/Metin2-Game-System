@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import window_manager
 
-## Application Imports
+# Library Imports
 from Interface.Frames.Metin2.Controls.types import Layer
 
-## Library Imports
+# External Imports
 
 
 class BaseCalls:

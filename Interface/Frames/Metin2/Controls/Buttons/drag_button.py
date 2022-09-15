@@ -1,21 +1,21 @@
-## System Imports
+# Standard Imports
 from enum import Enum
 from typing import List
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import application
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 from System.Interface.View.Control import Flag
 from Interface.Frames.Metin2.Controls.types import Layer
 from Interface.Frames.Metin2.Controls.Buttons.button import Button
 from Interface.Events.Control.control_resize import ControlResizeEvent, ControlResizeEventArguments
 
 
-## Library Imports
+# External Imports
 from Core.Plugins import factory
 from Core.Interface.View.decorators import generic_property
 

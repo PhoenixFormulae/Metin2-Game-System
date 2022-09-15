@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import character
 
-## Application Imports
+# Library Imports
 from Settings.Game.Player.enums import HorseSkill, Job, Race, GuildSkill
 
-## Library Imports
+# External Imports
 
 
 PlayerJobsMotions = {

@@ -2,7 +2,7 @@
 from typing import NoReturn
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import input_method
 
 

@@ -1,16 +1,16 @@
-## System Imports
+# Standard Imports
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import player
 from junctions import character
 from junctions import application
 
 
-## Application imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 
 
 battle_affects_path = '' # InterfaceInformation.GetBattleAffectsPathName()

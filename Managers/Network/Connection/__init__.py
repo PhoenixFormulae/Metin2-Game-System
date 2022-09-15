@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 
 
-## Application Imports
+# Library Imports
 from Managers.Network.Connection.Methods.ServerConnection import ConnectionSettings, ServerConnection
 
-## Library Imports
+# External Imports
 
 
 def Initialize():

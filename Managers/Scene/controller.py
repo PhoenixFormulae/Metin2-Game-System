@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import group, sound, character, background
 
-## Application Imports
+# Library Imports
 from Interface.calls import BaseCalls
 from Settings.Scene.data import SceneSettings
 from Managers.Scene.Camera.controller import CameraController
 
 
-## Library Imports
+# External Imports
 
 
 class SceneController(BaseCalls):

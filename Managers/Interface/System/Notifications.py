@@ -1,6 +1,6 @@
 ## System Imports
 
-## Embedder Imports
+# Embedder Imports
 
 ## Application Imports
 from game_system import Metin2GameSystem

@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 from enum import Enum
 from dataclasses import dataclass
 
-## Library Imports
+# External Imports
 
-## Application Imports
+# Library Imports
 
 
 

@@ -1,14 +1,14 @@
-## System Imports
+# Standard Imports
 from typing import Callable, Optional
 
 
-## Embedder Imports
+# Embedder Imports
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 from Core.Plugins import factory
 from Core.Interface.View.Event.base import BaseEvent
 from Core.Interface.View.Event.interfaces import EventArgumentsInterface

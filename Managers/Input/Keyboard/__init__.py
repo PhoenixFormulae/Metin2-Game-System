@@ -1,7 +1,7 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports

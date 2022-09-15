@@ -1,13 +1,13 @@
 ## System imports
 
-## Embedder imports
+# Embedder Imports
 from junctions import network
 
-## Application imports
+# Library Imports
 from Settings.Network import data
 
 
-## Library imports
+# External Imports
 
 
 class ConnectionSettings:

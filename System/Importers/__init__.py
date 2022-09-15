@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 import builtins
 
 
-## Application Imports
+# Library Imports
 from System.Importers.pack_cython import PackCythonLoader
 
 
-## Library Imports
+# External Imports
 from Core.Imports import Loaders
 
 

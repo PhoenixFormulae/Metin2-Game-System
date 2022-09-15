@@ -1,9 +1,9 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from System.Parsers.GuildData import GuildBuildingData
 
-## Library Imports
+# External Imports
 from dataclasses_json import dataclass_json
 
 

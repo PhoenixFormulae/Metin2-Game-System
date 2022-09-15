@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from FSM import model
 from FSM.enums import PhaseState
 from game_system import Metin2GameSystem
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 
-## Library Imports
+# External Imports
 from Core import CoreSystem
 from Core.Manager.decorators import register_manager
 

@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 
 
-## Application Imports
+# Library Imports
 from junctions import group
 
-## Library Imports
+# External Imports
 from colour import Color
 
 

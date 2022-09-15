@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from Managers.Input.Keyboard.data import KeyState
 from Managers.Input.Keyboard.metaclasses import KEY_ATTRIBUTE_NAME
 
-## Library Imports
+# External Imports
 
 
 def Key(state: KeyState, press_key: int | tuple = (), release_key: int | tuple = ()):

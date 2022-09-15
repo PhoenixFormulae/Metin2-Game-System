@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 
 
-## Embedder Imports
-
-
-
-## Application Imports
+# Embedder Imports
 
 
 
-## Library Imports
+# Library Imports
+
+
+
+# External Imports
 
 
 PlayerEffects = {

@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
 
-## Application Imports
+# Library Imports
 from FSM import model
 from FSM.enums import PhaseState
 
 
-## Library Imports
+# External Imports
 
 
 def register_state(phase: PhaseState | None = None):

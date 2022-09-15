@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from System.Manager.base import BaseManager
 
-## Library Imports
+# External Imports
 
 
 @register_state(PhaseState.Game)

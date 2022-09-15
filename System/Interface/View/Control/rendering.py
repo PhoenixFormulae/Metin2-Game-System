@@ -1,13 +1,13 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import group
 
-## Application Imports
+# Library Imports
 from Settings.Interface.data import DebugRendering
 from System.Interface.Utilities.Color import ExtendedColor
 
-## Library Imports
+# External Imports
 from Core.Interface.View.Control.interfaces import ControlInterface
 
 

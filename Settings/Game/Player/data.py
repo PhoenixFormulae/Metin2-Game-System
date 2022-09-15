@@ -1,14 +1,14 @@
-## System Imports
+# Standard Imports
 
 
-## Embedder Imports
+# Embedder Imports
 
 
-## Application Imports
+# Library Imports
 # from Settings.Game.Environment.data import CHARACTERS_CLICK_EFFECT_FOLDER
 
 
-## Library Imports
+# External Imports
 
 
 HairColors: bool = True

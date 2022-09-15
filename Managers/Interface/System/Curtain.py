@@ -1,8 +1,8 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 from FSM.decorators import register_state
 from FSM.enums import PhaseState
 from System.Manager.base import BaseManager

@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 from abc import ABC, abstractmethod
 
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 
 
-## Library Imports
+# External Imports
 from Core.dispatcher import CallDispatcher
 
 

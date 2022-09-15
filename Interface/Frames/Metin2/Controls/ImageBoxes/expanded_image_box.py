@@ -1,21 +1,21 @@
-## System Imports
+# Standard Imports
 from enum import Enum, unique
 from contextlib import suppress
 from typing import Union, NoReturn, List
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 from System.Interface.View.Control import Anchor
 from System.Interface.View.Control import rendering
 from Interface.Frames.Metin2.Controls.types import Layer
 from Interface.Frames.Metin2.Controls.ImageBoxes.image_box import ImageBox
 
 
-## Library Imports
+# External Imports
 from Core.Plugins import factory
 from Core.Interface.View.decorators import generic_property
 

@@ -1,18 +1,18 @@
-## System Imports
+# Standard Imports
 from enum import unique, IntEnum
 
 
-## Embedder Imports
+# Embedder Imports
 from junctions import application
 from junctions import group
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 from Settings.Scene.data import CameraSettings
 
 
-## Library Imports
+# External Imports
 from Interface.calls import BaseCalls
 
 

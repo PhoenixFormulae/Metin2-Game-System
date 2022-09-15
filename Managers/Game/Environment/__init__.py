@@ -1,15 +1,15 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 from junctions import item, effect, background, character_manager
 
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.decorators import register_state
 from Settings.Game.Environment import data
 
-## Library Imports
+# External Imports
 from System.Manager.base import BaseManager
 
 

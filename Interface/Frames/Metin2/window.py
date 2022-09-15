@@ -1,18 +1,18 @@
-## System Imports
+# Standard Imports
 import logging
 from typing import Type
 from enum import Enum, unique
 
 
-## Embedder imports
+# Embedder Imports
 from junctions import application
 from junctions import window_manager
 
 
-## Application Imports
+# Library Imports
 
 
-## Library Imports
+# External Imports
 from Core.Interface.data import BaseWindowConfiguration
 from Core.Interface.Frame.interfaces import FrameWindowInterface, FrameInterface
 

@@ -1,9 +1,9 @@
-## System Imports
+# Standard Imports
 from abc import ABCMeta
 
-## Application Imports
+# Library Imports
 
-## Library Imports
+# External Imports
 
 # Keyboard Attribute Names
 KEY_ATTRIBUTE_NAME = '_key'

@@ -1,6 +1,6 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.Phases.Logo import PhaseLogoState
 from FSM.Phases.Game import PhaseGameState
@@ -10,7 +10,7 @@ from FSM.Phases.Select import PhaseSelectState
 from FSM.Phases.Loading import PhaseLoadingState
 from System.FSM.interfaces import PhaseInterface
 
-## Library Imports
+# External Imports
 from statemachine import StateMachine
 
 

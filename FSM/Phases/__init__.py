@@ -1,10 +1,10 @@
-## System Imports
+# Standard Imports
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from System.FSM.interfaces import PhaseInterface
 
-## Library Imports
+# External Imports
 from Core.dispatcher import CallDispatcher
 from Core.Manager.interfaces import ManagerInterface
 

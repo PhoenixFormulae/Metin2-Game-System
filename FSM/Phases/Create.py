@@ -1,12 +1,12 @@
-## System Imports
+# Standard Imports
 
-## Embedder Imports
+# Embedder Imports
 
-## Application Imports
+# Library Imports
 from FSM.enums import PhaseState
 from FSM.Phases import BasePhase
 
-## Library Imports
+# External Imports
 
 
 class PhaseCreateState(BasePhase):
